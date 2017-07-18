@@ -45,3 +45,20 @@
 .btn-white:hover {
 	transform: scale(1.3);
 }
+@media (max-width: 500px) {
+	#displayChange img { /*BOOSTRAP V4 ALPHA IMG=FLUID ERROR FIX */
+		height: 100%;
+		width: 100%;
+	}
+}
+@media (max-width: 725px) {
+	.img-md { /*BOOSTRAP V4 ALPHA IMG=FLUID ERROR FIX */
+		height: 100%;
+		width: 100%;
+	}
+}
+@media (max-width: 600px) {
+	img {
+		max-width: 100%;
+	}
+}
